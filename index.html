@@ -1,0 +1,1235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/js_114_ValeraKiorkiian/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="web info" />
+    <title>Freelance-Portfolio</title>
+    <!-- Embedding Modern Normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Embedding fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- External CSS -->
+    <script type="module" crossorigin src="/js_114_ValeraKiorkiian/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/js_114_ValeraKiorkiian/assets/vendor-D5ejbO1t.js">
+    <link rel="stylesheet" crossorigin href="/js_114_ValeraKiorkiian/assets/vendor-CR6dor8q.css">
+    <link rel="stylesheet" crossorigin href="/js_114_ValeraKiorkiian/assets/index-B5AduS9N.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container header-container">
+    <nav class="header-nav">
+      <a
+        href="https://valerakiorkiian.github.io/freelance-portfolio/"
+        class="header-link"
+      >
+        <img
+          class="header-logo"
+          width="80"
+          height="80"
+          srcset="data:image/webp;base64,UklGRpIEAABXRUJQVlA4WAoAAAAQAAAATwAATwAAQUxQSLIAAAABgE3bliTpIgTCQwmUhxAmkQZZBtkGifAQLkIg5Dzf/46ICcBpKz3b9PIWQzHc7OP02fA7MqdP06+kOn2+plMWk0DaCeMkkXaQOImMtFcnmXXHJ6F5QyUE4JNUB0LLCJvEWlFTBjV9qGFT06Z/Lzc1jWrip+avqCmmxjBqCcC1OAAqIQBkJb5Bp6PDbgoVTHswaqDh2KggDGdT970u4aLzW8y40eM7o+NmK0O0tzX2xXAaVlA4ILoDAACQEQCdASpQAFAAPpFAm0olo6IhpnZrmLASCWMAyG37bGm7XZbfBnSrTRfINqCdLNihX+rOHX9Uobd0eRAfzvgFYbJPyhmRAQZW8kzeWlmOpbjx+EefVbpVRhkeqeJ0bKILCii/QjKlyKo2Fnz1aHHKr9fgzYJ+OHtQ743gWOOFTg05j9UOGcnyFeUupEZCoj5I6aIAAAD++V97YTha39fIQxRGw9082o8v8uOiygKVvKJJx7Z4BrIwn+OmR76ZChlTpVhz0gRacQf19U2F6y7FVGyy29GMhlN59a7chdcNP4bvQg9on7AjEYd0ku/QTd0iqEcNw+6w51pjR4AKrJe6ADHVE27kkAnPS5Xd70VOorovWVfafpx/ap9HqXo13kXeYewhcrVUfykmO6fFORLmEwDN9wqry3iabETldWgBuIu8mRYanN0Jm+QLDYdE6Md1S0k1Fw7uXmDld5BsRhaQFMt/XWM0q6LsWPQMEEuiOFg5n2iMF8ZUIUSGZ9JalU3+GdjqDKlQLFQYtLcEoNCXYA8mnbdSkDf8CcOxImZXdDQRF7+6boboGmT/1JyCbAqgZAn70TrkjpseT0/VQ87KMJ5+kk33GXuPZOZX6NizBm8jbFhjNimanDnXyh9Hqw84zx6yzSODblh9zm60GCRNEE6iKZxqNQ6VBTZX5ehlfIBYWOG1kxQ9OzIoNfCm8hevdYas1a62psob05cOz2w5C8SsaXemGGebzOPHCP3DbAZ8TTp4wMANb+K6n2GlQN9YCjf9jZrA6oDY1Mt9BnRNWnrzrm5RMK3LNn5qTsLz+Iz7pGj0NW+Rq0zsOE75MF5AEO4fD189E3bDXKY7X9pm1SKv2bkAj7880XCqLckNa9YDkPHkdxYbvHtU6s3jeBRBKoD+93yZy8PDeGf34r3N7P7zI2wTXMuWNBXskIOXdyHcEhRDwz2lKAip2B9YujjYFblrWzEc3fwVTH7iMMmMxhRbe8xJ8/GMJXr7egXXMzX42ek2rL72PehpEttZYdgfQ3tt+2632bv5EJT92KjZNBX7SK+0TaR+RtV58o/mhfV/rK11M2kMkAh0aSB6H5KLskrOJhm9+l/7m2zNyTZj3+eeGzkiOtnel0Pa021+/ZOZtMEnHjOZizN/qJRnWzhBfRYGbcc2ridtT+qYv7nZhcy6FtWMUQ3CNgYD+8a3ICftj0fUsB4qJFvpSE8n3iSnSIERgQtHeVozYATA+JbG1DbFV+kcQct6lJ6Sn3bQ5woT9cxT4tQAAAA= 1x, data:image/webp;base64,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 2x"
+          src="data:image/webp;base64,UklGRpIEAABXRUJQVlA4WAoAAAAQAAAATwAATwAAQUxQSLIAAAABgE3bliTpIgTCQwmUhxAmkQZZBtkGifAQLkIg5Dzf/46ICcBpKz3b9PIWQzHc7OP02fA7MqdP06+kOn2+plMWk0DaCeMkkXaQOImMtFcnmXXHJ6F5QyUE4JNUB0LLCJvEWlFTBjV9qGFT06Z/Lzc1jWrip+avqCmmxjBqCcC1OAAqIQBkJb5Bp6PDbgoVTHswaqDh2KggDGdT970u4aLzW8y40eM7o+NmK0O0tzX2xXAaVlA4ILoDAACQEQCdASpQAFAAPpFAm0olo6IhpnZrmLASCWMAyG37bGm7XZbfBnSrTRfINqCdLNihX+rOHX9Uobd0eRAfzvgFYbJPyhmRAQZW8kzeWlmOpbjx+EefVbpVRhkeqeJ0bKILCii/QjKlyKo2Fnz1aHHKr9fgzYJ+OHtQ743gWOOFTg05j9UOGcnyFeUupEZCoj5I6aIAAAD++V97YTha39fIQxRGw9082o8v8uOiygKVvKJJx7Z4BrIwn+OmR76ZChlTpVhz0gRacQf19U2F6y7FVGyy29GMhlN59a7chdcNP4bvQg9on7AjEYd0ku/QTd0iqEcNw+6w51pjR4AKrJe6ADHVE27kkAnPS5Xd70VOorovWVfafpx/ap9HqXo13kXeYewhcrVUfykmO6fFORLmEwDN9wqry3iabETldWgBuIu8mRYanN0Jm+QLDYdE6Md1S0k1Fw7uXmDld5BsRhaQFMt/XWM0q6LsWPQMEEuiOFg5n2iMF8ZUIUSGZ9JalU3+GdjqDKlQLFQYtLcEoNCXYA8mnbdSkDf8CcOxImZXdDQRF7+6boboGmT/1JyCbAqgZAn70TrkjpseT0/VQ87KMJ5+kk33GXuPZOZX6NizBm8jbFhjNimanDnXyh9Hqw84zx6yzSODblh9zm60GCRNEE6iKZxqNQ6VBTZX5ehlfIBYWOG1kxQ9OzIoNfCm8hevdYas1a62psob05cOz2w5C8SsaXemGGebzOPHCP3DbAZ8TTp4wMANb+K6n2GlQN9YCjf9jZrA6oDY1Mt9BnRNWnrzrm5RMK3LNn5qTsLz+Iz7pGj0NW+Rq0zsOE75MF5AEO4fD189E3bDXKY7X9pm1SKv2bkAj7880XCqLckNa9YDkPHkdxYbvHtU6s3jeBRBKoD+93yZy8PDeGf34r3N7P7zI2wTXMuWNBXskIOXdyHcEhRDwz2lKAip2B9YujjYFblrWzEc3fwVTH7iMMmMxhRbe8xJ8/GMJXr7egXXMzX42ek2rL72PehpEttZYdgfQ3tt+2632bv5EJT92KjZNBX7SK+0TaR+RtV58o/mhfV/rK11M2kMkAh0aSB6H5KLskrOJhm9+l/7m2zNyTZj3+eeGzkiOtnel0Pa021+/ZOZtMEnHjOZizN/qJRnWzhBfRYGbcc2ridtT+qYv7nZhcy6FtWMUQ3CNgYD+8a3ICftj0fUsB4qJFvpSE8n3iSnSIERgQtHeVozYATA+JbG1DbFV+kcQct6lJ6Sn3bQ5woT9cxT4tQAAAA="
+          alt="logo"
+        />
+        <svg class="header-icon" width="84" height="19">
+          <use href="/js_114_ValeraKiorkiian/assets/sprite-MlqMT-rW.svg#icon-jefferson"></use>
+        </svg>
+      </a>
+      <div class="nav-wrapper">
+        <button class="nav-list-btn js-nav-list-open" type="button">
+          Menu
+        </button>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#about-me" class="nav-item-link">About me</a>
+          </li>
+          <li><a href="#benefits" class="nav-item-link">Benefits</a></li>
+          <li><a href="#projects" class="nav-item-link">Projects</a></li>
+          <li><a href="#faq" class="nav-item-link">FAQ</a></li>
+        </ul>
+      </div>
+      <button class="burger-open-btn js-open-menu" type="button">
+        <svg
+          width="28"
+          height="28"
+          viewBox="0 0 28 28"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M3.5 9.91666H24.5M3.5 18.0833H24.5"
+            stroke="#FAFAFA"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </button>
+      <a href="#work-together" class="nav-link">Order the project</a>
+    </nav>
+  </div>
+</header>
+
+
+    <main>
+      <!-- Loads the specified .html file -->
+      <section class="hero">
+  <div class="container hero-container">
+    <h1 class="hero-title">
+      Hello.<br />
+      I’m Fullstack developer <br />
+      Lloyd Jefferson.
+    </h1>
+    <ul class="hero-socials-list">
+      <li class="hero-socials-list-item">
+        <a
+          class="hero-socials-list-item-link"
+          href="https://www.instagram.com/goitclub/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >IG</a
+        >
+      </li>
+      <li class="hero-socials-list-item">
+        <a
+          class="hero-socials-list-item-link"
+          href="https://www.facebook.com/goITclub/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >FB</a
+        >
+      </li>
+      <li class="hero-socials-list-item">
+        <a
+          class="hero-socials-list-item-link"
+          href="https://www.youtube.com/c/GoIT"
+          target="_blank"
+          rel="noopener noreferrer"
+          >YT</a
+        >
+      </li>
+      <li class="hero-socials-list-item">
+        <a
+          class="hero-socials-list-item-link"
+          href="https://github.com/ValeraKiorkiian/freelance-portfolio"
+          target="_blank"
+          rel="noopener noreferrer"
+          >GH</a
+        >
+      </li>
+      <li class="hero-socials-list-item">
+        <a
+          class="hero-socials-list-item-link mail"
+          href="mailto:lloydjefferson@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          >lloydjefferson@gmail.com</a
+        >
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section id="about-me" class="about-me">
+  <div class="container">
+    <h2 class="visually-hidden">About me</h2>
+    <div class="about-wrapper">
+      <div class="about-left">
+        <p class="about-txt">
+          I work with people all over the world to create impressive and
+          <span class="about-r-span">functional </span
+          ><span class="about-g-span">websites</span> that reflect each client's
+          unique personality.
+        </p>
+        <div class="swiper-mini-preview">
+          <div class="swiper" id="swiper-mini">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img
+                  src="/js_114_ValeraKiorkiian/assets/chego-CamH4yQ0.webp"
+                  alt="chego"
+                  loading="lazy"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="/js_114_ValeraKiorkiian/assets/energy-BVPrUBd0.webp"
+                  alt="energy"
+                  loading="lazy"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="/js_114_ValeraKiorkiian/assets/english-2GXmZhcB.webp"
+                  alt="english"
+                  loading="lazy"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="/js_114_ValeraKiorkiian/assets/fruitbox-CIWHdOob.webp"
+                  alt="fruitbox"
+                  loading="lazy"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="/js_114_ValeraKiorkiian/assets/mimino-DccVn7fW.webp"
+                  alt="mimino"
+                  loading="lazy"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="/js_114_ValeraKiorkiian/assets/power-pulse-Bj5L3iAp.webp"
+                  alt="power-pulse"
+                  loading="lazy"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="/js_114_ValeraKiorkiian/assets/starlight-DyoNK0wo.webp"
+                  alt="starlight"
+                  loading="lazy"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="/js_114_ValeraKiorkiian/assets/vegetables-lHl5WYlR.webp"
+                  alt="vegetables"
+                  loading="lazy"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="/js_114_ValeraKiorkiian/assets/wallet-DCYS7a_c.webp"
+                  alt="wallet"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-right">
+        <div class="thumb">
+          <picture>
+            <!--Destkop -->
+            <source
+              media="(min-width: 1440px)"
+              srcset="/js_114_ValeraKiorkiian/assets/aboutMe-desktop-1x-LaBclWlj.webp 1x, /js_114_ValeraKiorkiian/assets/aboutMe-desktop-2x-oNeX5CM1.webp 2x"
+            />
+            <!--tablet -->
+            <source
+              media="(min-width: 768px)"
+              srcset="/js_114_ValeraKiorkiian/assets/aboutMe-tablet-1x-SjcUOzES.webp 1x, /js_114_ValeraKiorkiian/assets/aboutMe-tablet-2x-W8g8_3x8.webp 2x"
+            />
+            <!--mobile -->
+            <source
+              media="(max-width: 767px)"
+              srcset="/js_114_ValeraKiorkiian/assets/aboutMe-mobile-1x-BGfOvqHn.webp 1x, /js_114_ValeraKiorkiian/assets/aboutMe-mobile-2x-A-P-EBJH.webp 2x"
+            />
+            <img
+              class="img-about"
+              src="/js_114_ValeraKiorkiian/assets/aboutMe-desktop-1x-LaBclWlj.webp"
+              alt="about-me"
+              loading="lazy"
+            />
+          </picture>
+        </div>
+      </div>
+    </div>
+    <ul class="accordion-container" id="accordion-about">
+      <li class="ac active">
+        <h3 class="ac-header">
+          <button type="button" class="ac-trigger">
+            about-me<span class="icon-span"
+              ><svg class="icon-accordion" width="18" height="18">
+                <use xlink:href="/js_114_ValeraKiorkiian/assets/sprite-MlqMT-rW.svg#icon-arrow-down"></use>
+              </svg>
+            </span>
+          </button>
+        </h3>
+        <div class="ac-panel">
+          <p class="ac-text">
+            I am Lloyd Jefferson, a talented programmer with extensive expertise
+            in software development. I have an understanding of different
+            programming languages and technologies, always ready to improve my
+            skills. I always follow the latest trends and look for
+            unconventional, creative solutions to problems. I have a high level
+            of analytical skills and am able to effectively solve even the most
+            difficult tasks encountered on the way.
+          </p>
+          <p class="ac-text">
+            Able to work both independently and in a team. I can effectively
+            cooperate with colleagues, exchanging ideas and finding optimal
+            solutions. Professional maturity allows you to calmly cope with
+            challenges and stressful situations, while maintaining a high
+            quality of work. I am always looking for opportunities for
+            self-improvement. I actively study new technologies and practices to
+            stay abreast of the latest innovations. I have a strong
+            understanding of various programming languages, frameworks and
+            architectural concepts that allow me to create efficient and
+            scalable software.
+          </p>
+        </div>
+      </li>
+      <li class="ac">
+        <h3 class="ac-header">
+          <button type="button" class="ac-trigger">
+            role<span class="icon-span"
+              ><svg class="icon-accordion" width="18" height="18">
+                <use xlink:href="/js_114_ValeraKiorkiian/assets/sprite-MlqMT-rW.svg#icon-arrow-down"></use>
+              </svg>
+            </span>
+          </button>
+        </h3>
+        <div class="ac-panel">
+          <p class="ac-text">Frontend development</p>
+          <p class="ac-text">HeadlessCMS,Wordpress</p>
+          <p class="ac-text">Blender(enjoy)</p>
+        </div>
+      </li>
+      <li class="ac">
+        <h3 class="ac-header">
+          <button type="button" class="ac-trigger">
+            education<span class="icon-span"
+              ><svg class="icon-accordion" width="18" height="18">
+                <use xlink:href="/js_114_ValeraKiorkiian/assets/sprite-MlqMT-rW.svg#icon-arrow-down"></use>
+              </svg>
+            </span>
+          </button>
+        </h3>
+        <div class="ac-panel">
+          <p class="ac-text">
+            2018 - 2019 / Frontend Development Diploma, GoIT IT
+            School,&nbsp;New&nbsp;York
+          </p>
+          <p class="ac-text">
+            2019 - 2020 / Advanced Web Development Certificate, GoIT IT School,
+            New York
+          </p>
+          <p class="ac-text">
+            2020 - 2022 / Advanced Blender Animation Techniques, Udemy
+          </p>
+        </div>
+      </li>
+    </ul>
+    <div class="container-swiper">
+      <div class="swiper" id="swiper-about">
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide" tabindex="0">HTML/CSS</li>
+          <li class="swiper-slide" tabindex="0">JavaScript</li>
+          <li class="swiper-slide" tabindex="0">React</li>
+          <li class="swiper-slide" tabindex="0">Node.js</li>
+          <li class="swiper-slide" tabindex="0">React Native</li>
+          <li class="swiper-slide" tabindex="0">Soft skills</li>
+          <li class="swiper-slide" tabindex="0">Hard skills</li>
+          <li class="swiper-slide" tabindex="0">Git/GitHub</li>
+        </ul>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- If we need navigation buttons 
+            <div class="swiper-button-prev"></div>-->
+      <button class="about-button-next" type="button" aria-label="Next slide">
+        <svg class="icon-next" width="28" height="28">
+          <use xlink:href="/js_114_ValeraKiorkiian/assets/sprite-MlqMT-rW.svg#icon-arrow-right"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+      <section id="benefits" class="benefits">
+  <div class="container">
+    <div class="benefits-left">
+      <h2 class="benefits-title">Benefits of working with me</h2>
+    </div>
+
+    <div class="benefits-right">
+      <div class="benefits-content">
+        <ul class="benefits-list">
+          <li class="benefits-item">
+            <div class="benefits-icon-wrap">
+              <svg class="benefits-icon" width="24" height="24">
+                <use href="/js_114_ValeraKiorkiian/assets/sprite-MlqMT-rW.svg#icon-user"></use>
+              </svg>
+            </div>
+            <h3 class="benefits-subtitle">Expertise</h3>
+            <p class="benefits-text">
+              As a highly experienced developer, I have deep knowledge of
+              programming and website development.
+            </p>
+          </li>
+          <li class="benefits-item">
+            <div class="benefits-icon-wrap">
+              <svg class="benefits-icon" width="24" height="24">
+                <use href="/js_114_ValeraKiorkiian/assets/sprite-MlqMT-rW.svg#icon-message-chat"></use>
+              </svg>
+            </div>
+            <h3 class="benefits-subtitle">Communication</h3>
+            <p class="benefits-text">
+              Understanding your needs and wants is my priority and I am always
+              open to discussions and corrections.
+            </p>
+          </li>
+          <li class="benefits-item">
+            <div class="benefits-icon-wrap">
+              <svg class="benefits-icon" width="24" height="24">
+                <use href="/js_114_ValeraKiorkiian/assets/sprite-MlqMT-rW.svg#icon-brush"></use>
+              </svg>
+            </div>
+            <h3 class="benefits-subtitle">Art</h3>
+            <p class="benefits-text">
+              Thanks to my creative nature, I am ready to accept challenges and
+              help you bring your ideas to life.
+            </p>
+          </li>
+          <li class="benefits-item">
+            <div class="benefits-icon-wrap">
+              <svg class="benefits-icon" width="24" height="24">
+                <use href="/js_114_ValeraKiorkiian/assets/sprite-MlqMT-rW.svg#icon-hourglass"></use>
+              </svg>
+            </div>
+            <h3 class="benefits-subtitle">Urgent execution</h3>
+            <p class="benefits-text">
+              I understand how important time is to you. Ready to work quickly
+              and efficiently, without reducing the quality of work.
+            </p>
+          </li>
+        </ul>
+        <a href="#work-together" class="benefits-link">Order the project</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="projects section" id="projects">
+  <div class="container projects-container">
+    <h2 class="projects-title">Projects</h2>
+    <div id="projects-swiper" class="parallax-slider swiper-container swiper">
+      <ul class="parallax-slider-wrapper projects-items swiper-wrapper">
+        <li class="projects-item swiper-slide projects-swiper-slide">
+          <div class="projects-technologies-container">
+            <ul class="projects-technologies">
+              <li
+                class="projects-technologies-item"
+                data-swiper-parallax="-250"
+                data-swiper-parallax-duration="800"
+                data-swiper-parallax-scale="0.1"
+              >
+                #react
+              </li>
+              <li
+                class="projects-technologies-item"
+                data-swiper-parallax="-250"
+                data-swiper-parallax-duration="500"
+                data-swiper-parallax-scale="0.1"
+              >
+                #js
+              </li>
+              <li
+                class="projects-technologies-item"
+                data-swiper-parallax="-250"
+                data-swiper-parallax-duration="1000"
+                data-swiper-parallax-scale="0.1"
+              >
+                #node js
+              </li>
+              <li
+                class="projects-technologies-item"
+                data-swiper-parallax="-250"
+                data-swiper-parallax-duration="1300"
+                data-swiper-parallax-scale="0.1"
+              >
+                #git
+              </li>
+            </ul>
+            <p
+              class="projects-description"
+              data-swiper-parallax="-350"
+              data-swiper-parallax-duration="1200"
+              data-swiper-parallax-scale="0.1"
+            >
+              Programming Across Borders: Ideas, Technologies, Innovations
+            </p>
+            <button
+              class="projects-btn"
+              type="button"
+              data-swiper-parallax="-400"
+              data-swiper-parallax-duration="1700"
+              data-swiper-parallax-opacity="0"
+              data-swiper-parallax-scale="0.1"
+            >
+              See project
+            </button>
+          </div>
+          <div class="projects-img-container">
+            <picture>
+              <source
+                media="(min-width: 1440px)"
+                srcset="/js_114_ValeraKiorkiian/assets/read-1x-Cuz7Uq9T.webp 1x, /js_114_ValeraKiorkiian/assets/read-2x-DcWMnKvs.webp 2x"
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="/js_114_ValeraKiorkiian/assets/read-1x-Cuz7Uq9T.webp 1x, /js_114_ValeraKiorkiian/assets/read-2x-DcWMnKvs.webp 2x"
+              />
+              <source
+                media="(max-width: 767px)"
+                srcset="/js_114_ValeraKiorkiian/assets/read-1x-KXVUPOWw.webp 1x, /js_114_ValeraKiorkiian/assets/read-2x-DyQNC4X0.webp 2x"
+              />
+              <img
+                class="projects-img"
+                src="/js_114_ValeraKiorkiian/assets/read-1x-KXVUPOWw.webp"
+                alt="Read"
+                width="311"
+                height="195"
+                loading="lazy"
+              />
+            </picture>
+          </div>
+        </li>
+        <li class="projects-item swiper-slide projects-swiper-slide">
+          <div class="projects-technologies-container">
+            <ul class="projects-technologies">
+              <li
+                class="projects-technologies-item"
+                data-swiper-parallax="-250"
+                data-swiper-parallax-duration="800"
+                data-swiper-parallax-scale="0.1"
+              >
+                #react
+              </li>
+              <li
+                class="projects-technologies-item"
+                data-swiper-parallax="-250"
+                data-swiper-parallax-duration="500"
+                data-swiper-parallax-scale="0.1"
+              >
+                #js
+              </li>
+              <li
+                class="projects-technologies-item"
+                data-swiper-parallax="-250"
+                data-swiper-parallax-duration="1000"
+                data-swiper-parallax-scale="0.1"
+              >
+                #node js
+              </li>
+              <li
+                class="projects-technologies-item"
+                data-swiper-parallax="-250"
+                data-swiper-parallax-duration="1300"
+                data-swiper-parallax-scale="0.1"
+              >
+                #git
+              </li>
+            </ul>
+            <p
+              class="projects-description"
+              data-swiper-parallax="-350"
+              data-swiper-parallax-duration="1200"
+              data-swiper-parallax-scale="0.1"
+            >
+              Programming Across Borders: Ideas, Technologies, Innovations
+            </p>
+            <button
+              class="projects-btn"
+              type="button"
+              data-swiper-parallax="-400"
+              data-swiper-parallax-duration="1700"
+              data-swiper-parallax-opacity="0"
+              data-swiper-parallax-scale="0.1"
+            >
+              See project
+            </button>
+          </div>
+          <div class="projects-img-container">
+            <picture>
+              <source
+                media="(min-width: 1440px)"
+                srcset="/js_114_ValeraKiorkiian/assets/petlove-1x-CO5thaAl.webp 1x, /js_114_ValeraKiorkiian/assets/petlove-2x-DCdYTHg1.webp 2x"
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="/js_114_ValeraKiorkiian/assets/petlove-1x-CO5thaAl.webp 1x, /js_114_ValeraKiorkiian/assets/petlove-2x-DCdYTHg1.webp 2x"
+              />
+              <source
+                media="(max-width: 767px)"
+                srcset="/js_114_ValeraKiorkiian/assets/petlove-1x-Cy2fJXCk.webp 1x, /js_114_ValeraKiorkiian/assets/petlove-2x-Bjmeiw79.webp 2x"
+              />
+              <img
+                class="projects-img"
+                src="/js_114_ValeraKiorkiian/assets/petlove-1x-Cy2fJXCk.webp"
+                alt="Petlove"
+                width="311"
+                height="195"
+                loading="lazy"
+              />
+            </picture>
+          </div>
+        </li>
+
+        <li class="projects-item swiper-slide projects-swiper-slide">
+          <div class="projects-technologies-container">
+            <ul class="projects-technologies">
+              <li
+                class="projects-technologies-item"
+                data-swiper-parallax="-250"
+                data-swiper-parallax-duration="800"
+                data-swiper-parallax-scale="0.1"
+              >
+                #react
+              </li>
+              <li
+                class="projects-technologies-item"
+                data-swiper-parallax="-250"
+                data-swiper-parallax-duration="500"
+                data-swiper-parallax-scale="0.1"
+              >
+                #js
+              </li>
+              <li
+                class="projects-technologies-item"
+                data-swiper-parallax="-250"
+                data-swiper-parallax-duration="1000"
+                data-swiper-parallax-scale="0.1"
+              >
+                #node js
+              </li>
+              <li
+                class="projects-technologies-item"
+                data-swiper-parallax="-250"
+                data-swiper-parallax-duration="1300"
+                data-swiper-parallax-scale="0.1"
+              >
+                #git
+              </li>
+            </ul>
+            <p
+              class="projects-description"
+              data-swiper-parallax="-350"
+              data-swiper-parallax-duration="1200"
+              data-swiper-parallax-scale="0.1"
+            >
+              Programming Across Borders: Ideas, Technologies, Innovations
+            </p>
+            <button
+              class="projects-btn"
+              type="button"
+              data-swiper-parallax="-400"
+              data-swiper-parallax-duration="1700"
+              data-swiper-parallax-opacity="0"
+              data-swiper-parallax-scale="0.1"
+            >
+              See project
+            </button>
+          </div>
+          <div class="projects-img-container">
+            <picture>
+              <source
+                media="(min-width: 1440px)"
+                srcset="/js_114_ValeraKiorkiian/assets/vocab-1x-D6JIy48q.webp 1x, /js_114_ValeraKiorkiian/assets/vocab-2x-BZLHZnV9.webp 2x"
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="/js_114_ValeraKiorkiian/assets/vocab-1x-D6JIy48q.webp 1x, /js_114_ValeraKiorkiian/assets/vocab-2x-BZLHZnV9.webp 2x"
+              />
+              <source
+                media="(max-width: 767px)"
+                srcset="data:image/webp;base64,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 1x, /js_114_ValeraKiorkiian/assets/vocab-2x-YdEYcGVL.webp 2x"
+              />
+              <img
+                class="projects-img"
+                src="data:image/webp;base64,UklGRvQOAABXRUJQVlA4IOgOAAAwTgCdASo3AcMAPpFGnUulo6Kio5Rp+LASCWdu4WuxAoCs4vEOFO+Zcv9U2258xXm6+cdvpO9Af4rJsvMH9V7T/8p4b+PD2/J4OL+rznvz075/gzqEesv9l4lu3YAH+c/2XvlNTLwX5qvox/oPCZ+4f5/9gPgC/mv99/7f25fIN/2f5vzp/on+e/93+a+AX+a/3L/t/4H2qfXD+1H/m90L9c//WEVsXX3vAwZ1p3r8mXZb/Haz90SGUbwaqqqqqqqqqkIAZLQoQmtayd97bu7u7qE3ImjN34sG2yUIukSD66yaSIiIiIlOpqnJ47oP8djukGuZqVFPmUsSUQmoApJ38TeUm79jru9OMwhctJjw7fKWt/RFhclpZfqQBu9a/IquK/rKqyQg1brad1VroLISvzKXIvgnGOq0wflFhQoyaQ3riGkf/XoKPycZh2Rra3FAMtpe86TpEoVrVPhUOnLAALCuq57AmTSn0Cj21PbJAvTe3mU7KmLjnznNFIXs9HCRQN6/fMEl/7R0hiJhfFcY8MJaJ0x4w1c7REyJwxqFQOVkY6OYDWWV7t3ApcGkcGgIuc5nb09sXj+j5LUgB0VQDPoiaoM0remjH6Fb04FHJ5ZeMo4Ztt/cp78u20+VQroAsMVFoQ6jzE5nZ+RC6IIAPurdtsUZmmdrEUNNR/LSpR/V7ROyyuseHPWV9m/WzsblyNZzA9CcM4QQ7JgbpCO1WoqqZ6rLf5EfQUDok5lZTlQfZMwZZDpefhq4Tm0210x0U/8+ouZWddgprP2u20eOSlxXcqjrs5zzJ3q9+5cDXJRGZ0FeHl3d3uWVceqqqqqqqqqiKUibHvoAAP7fI93QXFCul8I7Qr7BW2PtN9ZqbdYKB4RHBNmT7YUgW6tlB+PHIif6gAvhakZkym/ONvScfx9joziLgjVBh/dJbUnAWkm81bLl+Lx3no/CN5sC4zKz8+1drOQyv0bRA7mzcxIGMDbtwDxJmJU6PAdSfm0xdW2GgEgcPRGpRqopnuCGRPikBn5hy7VzON0O+BifIBCXOCZ2/8jps2oj/DK5ejwuCHRW/586FEH5u9Uw1UfDmK8ph1gTR7kMmmUekEa+eW6eKUxtBcIIHmKT3//HA4l/PsOE1r5Lb3cDAe/JA1+ZWf4O4gsMfwCE+fTdKhAlwAwCa6j0AL/WMwcfjxx61McIp43flncKatjxY81EczZ3+HoglaGoaQh97aG/NQwT4Uxr3etKwMWqPapqHmDW9gdIIdegPGPUBPreOtPAyyzVpAA9UmblPRrgZTCF0LWpmil0z/OJJ68x9yJHCng/CZkXGXlyAExdt+vrjwv/0AXCcv5BQFb//4GP+rH7rPiLf5zEdauWYR7KLdEqJox2NI1nMd/l1uF4avO+pBzTJA1QKeoXv9y36dzZYSwZv7I5J8l+oAcdoM9CdFzP5c0Nnz6UxYAZu/7XiEk7mL2uv7aW7wxGFGC9PQVBeufbCox+DckJmZLbP+W/mjvnkSaTLoOTCZomqSNPwlCusmPdXQ1+Jj34LiGnlf7mP24tPNuPx89BLP6QXszQl3KvAktRal1RW8ERnfTnPsgF4NmtYNyS8pwjTSVym96YVpj40k6DQBZm/vYlxQrAgnZsBe+wuX+jUqk4lq7rVM8WXUTjM71usyxOdSbDnkD/GZfMUGD5jefFbf9/IZoBaHhGk9x2dIS12bGaSAxgDWNdoXoLlpwMM/N9Tds8eDoqYP6aGEFsrkqocUbqC/5dB7J2PvdgdBkiaV5BEeNNLuXa/HPBhCH9EIEAtVtoMsIvRAcwv60XNGbO92kWfG+5D6CtyquAykqXFR1HnnWgAx8efN+umZQOSQVmoksXBOsxSgJtsEancsJTnYsd5X94s0UiNO9m5Gw44kXgiK6t9FvBmchyQeD7KFv5sDnA9VqnOBs9sT8Wx+7rXvd64ZGbtFpcrUqljRiNuGqkdd+aSPO7w5LFJRP0F79xnUkDIPBdp5rlr4ZhfuM56EpUA4KgSxOlXRj1OZotieZFMsacKewhLIArqL+3exADOmMW/mmSpO8dnTV0lNPTtPZCcNJjNEGrfJkecrE3021Ov3t0VSJFRM5pGM09dm4f67ixb8hCwz0z4S9p441IB7vrp0MrEDaO7qZwOj6YiTXS377/1I3IS5v2af3eaSmIvSWKaECJiRxg02wdpL/zjGRSVoqHJD7wLq/enB8tk90JrOZPunLyR1kTiy7I5H5C8zlx+dAa6mNWrewvst8zrGDdmMCfhum2l+2uglkzm4aPJsqSNQik8eEYi/Tt/AKXtXIEYQVUzy/eJ1fHQe6vxU57r7Dl3PQ57snfsKuHkIQgL9j5HrmRMzcN6zosdOYaB/TcSCAcEKDpVzXuBRG25gNF5BHhih8A3K6wqaJiRQGwQJ5OSLAvKU31x0aPHynr+UTI1gkBUrM1kgPUsLACrVEks4C4StPfbEmWc6ETX/az7OX2shZof+/eG9QZcXk0dPTxzhFVdcsh3N9cLEdNOrFjJsHanHu5i+Apj7luvi1MCBsl37iAtvQI25Z41WQqG47nRuR8a5MwqAfHEpU1zxK4izhTB0tJVg5k1bUpV2Rav0zO3FkaUh9R/Xd539gaLH0R3GJz53JiLoe6cu3VsRxbVetRYRbgHZCY1Wg0sMyMBD8sc3c+dnQTVRuJcCrQYOxFLDxAr8QxNh2Bv3M9IAq89b8CaekZGL45nv+TWW2FCkCrh99YO5VUfEqG1O5DshIzG/LIUxx+oqfElKtcvmfEFe4EvjaPUcFXK63p4dMosf1UW8U95FIfgm74IpV0JWOt04PiKVT/t+wjia8zDF5dFrbFPRFcxkXKjenw1WT1KLnzWsiwHFPZ32B5/QlJtiVY9XWGepigs+Jcm8zTewXsRJFI4KfW3C49Ld47naqJF0BPC0O92x7B0aguSeGjUq/WNX4a+nPdoZFUVJn+n884vyJF7M7HlOG95/MNwbRoPWASgA+iLK4X0lZc+v5e/GTCZfA2R+c1TMFm1T4GI+LX2H8X3kzyTEH5ZXPrVpR0GDGhgpNnDoyxoqqpOv0I4F+A7IRoA1P0fuLwbLt4+n+1fMYKTw603VUlgbBMoL239YRvmFy18+ivbrAXlgfq3/kQvlGyfcI1Mj46kgaSLKVKyNXkAWzTFuMpb4q1dPC1FCeFX7XJnO+RQNwjd/5SvtwbJpGUTx82hd7e/DAXZjHX7EMSr0KewW2IW227KuktVhCGkfboyyQBv3V9CSxqG4Hbgv466pQVmq9vUTA+gQx6sT5OdacnGyJdwP9TUaHOMFcpBFHWd9vcF9brmT9yrESgFt0lNvHNUz2pFfNJk7IcUnhou0NTp4WJqTN9/H3UDzVVPIrsrCC4RMo0dQPXQRkjrlMuEYw/TBcOm7HIIeSNmk0eMvNzFyG/zTP3p5RhC9iWyrwP2XMi3ykGg0Y1GsJOfaKUXWLoJAv5MhcvoY5q8l2qhe95dewcjv0lYhFyw4GWZ/9OwY7bvS7HNWBDx3gcjB8/90jBKGqiFpdNQhxoCsEgKq45d/yAqafhl9G8eyX5BRiyyVkkpABDRMS7VpO5rzY3samZ5FBptQl9ncTs25nq7d1n9nuSwBebwT0NozRCw13zadfXF+z5lQQBLCk8EYT+8tx/O0z6DD52cS6CK7yZG10Zk3XHTXH/IthmhovyL58plRqNwyOXNLKJAk0s67UU2HEdcoe/QWYKhiNRp5LUkvYgmFmHAP6Boi4x7UqIOy23i93QFNnQg/Jp6CuyovtgudQO3ej/XQAxmK1jaJ2UfdEmVLGCBJLiRywoKmnoT+vG+hoxHU/Ui09MnBsyAQlZf9uPagEBXxjTST06IeTnJCuXB+t6m/qXuue971QoUq39eIqLhHTyXfTqttN9sZgm0skd7AvmB3+aYIU5Aopa7YI0flkTpyh0HwStGr5rsnbi0XeeMz5gVV63R23xMxN5JmcQFVq1JdsUoSv5xayaiA1R8gyqvKOj2TVok+4l4akuqyXyM/I5OmPlN/s4UGTFbXHtWrDbQb+z//AmzBCBPM0rcrPEvbizUWOhwOCuIQE9zCZUFfWZTraT1aTfQ/dMaARuU5kf3r3xIEEskAY38uwB+WcX1xFoMHSsMLaTZcNEa2dAxHKHyovcCzOQVbIeY3e78NGBfiW1eZ9MmYdDHgZslw8RW2HYSz930/JWuh2XR/stVAUULnsS2IW7NJUG2WK3TQBTc3NVemOwBylPhQW7cgTpTbntZRPcvrRDmGQ1DtitNFCVMDTkmAfyCwSE7RxKGN2rS38aVmMvWfiAboTuYDlePD1oVj2vLIxq8dxD0yKHK3CWCfIVfHLZNuTdOdlSMPI0XKgw0f3N4Wri0X3cJch63VfjD9RGMTeMuWZV+Uc4JvqxdcnYJ5pwg+QzEECMmVmnx5MVxA2CCgsjvxdArQZb9wX/4zlgDAyh4EZZYWXPAsgloQMRJe17Xkwcap6pqnwY4f/KVLu/2jK5AXfb05a9rCsJW4PrFQJpxg+BGy43cKpQta3jeneoFzspckmmpP30xyHRM12ExehDvkDvIEawo+SEMgmduIYKTyhURDHlrwHpTpnqG+I0V1Byr07qbzfuOSUhXGEixNOh2qCUaakmqAlPCyBKXHMObshal0ZnGXK7C0nz3VXUQeiibxSscxTL/VHk5fwmLg1JezYgaY9e5k5/iv1f6VfrAUZbw2rsT+45tVJrzEkPByy3ZOAHEdhty4CDro0BLd/vMQ/qHg+SCIAIddOEoIBsnh6DPNgtZhKpUI4IP5knczcYKkRDNXuAUqW80QH9VjI0w6jQjXDlk0V/R00D3B7X+KCpH7ppvhU3ngPUml0/QaivEqaUKapvh03yzAIKs2WR0aTebv89mspKjQOP/g6KXKVzgClIIlcvdSKjEd9/vq4DOfgl6ZHx3EalgEZ+apUcEYQHyyCXdEl83kAawpKW8fBZKc2xaR//ctVXHs1/xICWm7T9xF0sASaBmNIufcI8a8KEUgCSNN08wFcJagAAMrEsdnV+AgXO1ElCK6kCvxaPHplTTN0BAKHnRQf7skAAAAA="
+                alt="Vocab"
+                width="311"
+                height="195"
+                loading="lazy"
+              />
+            </picture>
+          </div>
+        </li>
+      </ul>
+      <div class="projects-navigation">
+        <div class="projects-button-prev projects-navigation-btn">
+          <svg class="icon-prev projects-icon" width="32" height="32">
+            <use xlink:href="/js_114_ValeraKiorkiian/assets/sprite-MlqMT-rW.svg#icon-arrow-right"></use>
+          </svg>
+        </div>
+        <div class="projects-button-next projects-navigation-btn">
+          <svg class="icon-forward projects-icon" width="32" height="32">
+            <use xlink:href="/js_114_ValeraKiorkiian/assets/sprite-MlqMT-rW.svg#icon-arrow-right"></use>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="faq section" id="faq">
+  <div class="container faq-container">
+    <h2 class="faq-title">FAQ</h2>
+    <div class="faq-wrapper-list">
+      <ul class="accordion-faq faq-list">
+        <li class="ac faq-item">
+          <h3 class="ac-header">
+            <button type="button" class="ac-trigger open-btn">
+              <svg class="faq-icon" width="34" height="34">
+                <use href="/js_114_ValeraKiorkiian/assets/sprite-MlqMT-rW.svg#icon-arrow-down"></use>
+              </svg>
+              What programming languages are most often used in your project?
+            </button>
+          </h3>
+          <div class="ac-panel faq-wrapper">
+            <p class="ac-text faq-wrapper-text">
+              In the field of web development, there are various technologies
+              and programming languages. Typically, this includes a combination
+              of frontend (client side) and backend (server side) languages.
+            </p>
+          </div>
+        </li>
+
+        <li class="ac faq-item">
+          <h3 class="ac-header">
+            <button type="button" class="ac-trigger open-btn">
+              <svg class="faq-icon" width="34" height="34">
+                <use href="/js_114_ValeraKiorkiian/assets/sprite-MlqMT-rW.svg#icon-arrow-down"></use>
+              </svg>
+              <span class="btn-inner"
+                >What are the deadlines for the project?</span
+              >
+            </button>
+          </h3>
+          <div class="ac-panel faq-wrapper">
+            <p class="ac-text faq-wrapper-text">
+              The terms of project implementation depend to a large extent on a
+              number of factors, such as the scope of the project, its
+              complexity, and the availability of resources. Determining exact
+              deadlines is a difficult task, and it usually occurs during the
+              planning phase of the project.
+            </p>
+          </div>
+        </li>
+
+        <li class="ac faq-item">
+          <h3 class="ac-header">
+            <button type="button" class="ac-trigger open-btn">
+              <svg class="faq-icon" width="34" height="34">
+                <use href="/js_114_ValeraKiorkiian/assets/sprite-MlqMT-rW.svg#icon-arrow-down"></use>
+              </svg>
+              <span class="btn-inner">What payment methods do you accept?</span>
+            </button>
+          </h3>
+          <div class="ac-panel faq-wrapper">
+            <p class="ac-text faq-wrapper-text">
+              Payment through credit and debit cards such as Visa, MasterCard,
+              specialized electronic payment systems such as PayPal, as well as
+              payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+            </p>
+          </div>
+        </li>
+
+        <li class="ac faq-item">
+          <h3 class="ac-header">
+            <button type="button" class="ac-trigger open-btn">
+              <svg class="faq-icon" width="34" height="34">
+                <use href="/js_114_ValeraKiorkiian/assets/sprite-MlqMT-rW.svg#icon-arrow-down"></use>
+              </svg>
+              How can I contact you?
+            </button>
+          </h3>
+          <div class="ac-panel faq-wrapper">
+            <p class="ac-text faq-wrapper-text">
+              In the field of web development, there are various technologies
+              and programming languages. Typically, this includes a combination
+              of frontend (client side) and backend (server side) languages.
+            </p>
+          </div>
+        </li>
+
+        <li class="ac faq-item">
+          <h3 class="ac-header">
+            <button type="button" class="ac-trigger open-btn">
+              <svg class="faq-icon" width="34" height="34">
+                <use href="/js_114_ValeraKiorkiian/assets/sprite-MlqMT-rW.svg#icon-arrow-down"></use>
+              </svg>
+              Do you provide advice or support?
+            </button>
+          </h3>
+          <div class="ac-panel faq-wrapper">
+            <p class="ac-text faq-wrapper-text">
+              The terms of project implementation depend to a large extent on a
+              number of factors, such as the scope of the project, its
+              complexity, and the availability of resources. Determining exact
+              deadlines is a difficult task, and it usually occurs during the
+              planning phase of the project.
+            </p>
+          </div>
+        </li>
+
+        <li class="ac faq-item">
+          <h3 class="ac-header">
+            <button type="button" class="ac-trigger open-btn">
+              <svg class="faq-icon" width="34" height="34">
+                <use href="/js_114_ValeraKiorkiian/assets/sprite-MlqMT-rW.svg#icon-arrow-down"></use>
+              </svg>
+              <span class="btn-inner-last">
+                What does the process of developing a software product look like
+                from idea to implementation?</span
+              >
+            </button>
+          </h3>
+          <div class="ac-panel faq-wrapper">
+            <p class="ac-text faq-wrapper-text">
+              Payment through credit and debit cards such as Visa, MasterCard,
+              specialized electronic payment systems such as PayPal, as well as
+              payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="covers section">
+  <h2 class="visually-hidden">Covers</h2>
+  <ul class="covers-list">
+    <li class="covers-wrapper">
+      <ul class="covers-wrapper-list">
+        <li class="covers-wrapper-item">
+          <img
+            src="/js_114_ValeraKiorkiian/assets/energy-BVPrUBd0.webp"
+            alt="Energy"
+            srcset="/js_114_ValeraKiorkiian/assets/energy-BVPrUBd0.webp 1x, /js_114_ValeraKiorkiian/assets/energy_2x-CHO-h_B8.webp 2x"
+            width="282"
+            height="163"
+            loading="lazy"
+          />
+        </li>
+        <li class="covers-wrapper-item">
+          <img
+            src="/js_114_ValeraKiorkiian/assets/fruitbox-CIWHdOob.webp"
+            alt="fruitbox"
+            srcset="/js_114_ValeraKiorkiian/assets/fruitbox-CIWHdOob.webp 1x, /js_114_ValeraKiorkiian/assets/fruitbox_2x--utaLKJ8.webp 2x"
+            width="282"
+            height="163"
+            loading="lazy"
+          />
+        </li>
+        <li class="covers-wrapper-item">
+          <img
+            src="/js_114_ValeraKiorkiian/assets/chego-CamH4yQ0.webp"
+            alt="chego"
+            srcset="/js_114_ValeraKiorkiian/assets/chego-CamH4yQ0.webp 1x, /js_114_ValeraKiorkiian/assets/chego_2x-erQ3DOXU.webp 2x"
+            width="282"
+            height="163"
+            loading="lazy"
+          />
+        </li>
+      </ul>
+    </li>
+    <li class="covers-wrapper">
+      <ul class="covers-wrapper-list">
+        <li class="covers-wrapper-item">
+          <img
+            src="/js_114_ValeraKiorkiian/assets/power-pulse-Bj5L3iAp.webp"
+            alt="Power"
+            srcset="/js_114_ValeraKiorkiian/assets/power-pulse-Bj5L3iAp.webp 1x, /js_114_ValeraKiorkiian/assets/power-pulse_2x-qIf6uXGb.webp 2x"
+            width="282"
+            height="163"
+            loading="lazy"
+          />
+        </li>
+        <li class="covers-wrapper-item">
+          <img
+            src="/js_114_ValeraKiorkiian/assets/mimino-DccVn7fW.webp"
+            alt="mimino"
+            srcset="/js_114_ValeraKiorkiian/assets/mimino-DccVn7fW.webp 1x, /js_114_ValeraKiorkiian/assets/mimino_2x-DhzW-aMt.webp 2x"
+            width="282"
+            height="163"
+            loading="lazy"
+          />
+        </li>
+        <li class="covers-wrapper-item">
+          <img
+            src="/js_114_ValeraKiorkiian/assets/vegetables-lHl5WYlR.webp"
+            alt="Green"
+            srcset="/js_114_ValeraKiorkiian/assets/vegetables-lHl5WYlR.webp 1x, /js_114_ValeraKiorkiian/assets/vegetables_2x-CA6eB-s5.webp 2x"
+            width="282"
+            height="163"
+            loading="lazy"
+          />
+        </li>
+        <li class="covers-wrapper-item">
+          <img
+            src="/js_114_ValeraKiorkiian/assets/starlight-DyoNK0wo.webp"
+            alt="traditional"
+            srcset="/js_114_ValeraKiorkiian/assets/starlight-DyoNK0wo.webp 1x, /js_114_ValeraKiorkiian/assets/starlight_2x-emgH1Jv9.webp 2x"
+            width="282"
+            height="163"
+            loading="lazy"
+          />
+        </li>
+        <li class="covers-wrapper-item">
+          <img
+            src="/js_114_ValeraKiorkiian/assets/english-2GXmZhcB.webp"
+            alt="English"
+            srcset="/js_114_ValeraKiorkiian/assets/english-2GXmZhcB.webp 1x, /js_114_ValeraKiorkiian/assets/english_2x-DQkTNOg_.webp 2x"
+            width="282"
+            height="163"
+            loading="lazy"
+          />
+        </li>
+      </ul>
+    </li>
+    <li class="covers-wrapper">
+      <ul class="covers-wrapper-list">
+        <li class="covers-wrapper-item">
+          <img
+            src="/js_114_ValeraKiorkiian/assets/english-2GXmZhcB.webp"
+            alt="English"
+            srcset="/js_114_ValeraKiorkiian/assets/english-2GXmZhcB.webp 1x, /js_114_ValeraKiorkiian/assets/english_2x-DQkTNOg_.webp 2x"
+            width="282"
+            height="163"
+            loading="lazy"
+          />
+        </li>
+        <li class="covers-wrapper-item">
+          <img
+            src="/js_114_ValeraKiorkiian/assets/chego-CamH4yQ0.webp"
+            alt="chego"
+            srcset="/js_114_ValeraKiorkiian/assets/chego-CamH4yQ0.webp 1x, /js_114_ValeraKiorkiian/assets/chego_2x-erQ3DOXU.webp 2x"
+            width="282"
+            height="163"
+            loading="lazy"
+          />
+        </li>
+        <li class="covers-wrapper-item">
+          <img
+            src="/js_114_ValeraKiorkiian/assets/wallet-DCYS7a_c.webp"
+            alt="Wallet"
+            srcset="/js_114_ValeraKiorkiian/assets/wallet-DCYS7a_c.webp 1x, /js_114_ValeraKiorkiian/assets/wallet_2x-yBbSB9sS.webp 2x"
+            width="282"
+            height="163"
+            loading="lazy"
+          />
+        </li>
+        <li class="covers-wrapper-item">
+          <img
+            src="/js_114_ValeraKiorkiian/assets/starlight-DyoNK0wo.webp"
+            alt="traditional"
+            srcset="/js_114_ValeraKiorkiian/assets/starlight-DyoNK0wo.webp 1x, /js_114_ValeraKiorkiian/assets/starlight_2x-emgH1Jv9.webp 2x"
+            width="282"
+            height="163"
+            loading="lazy"
+          />
+        </li>
+        <li class="covers-wrapper-item">
+          <img
+            src="/js_114_ValeraKiorkiian/assets/starlight-DyoNK0wo.webp"
+            alt="traditional"
+            srcset="/js_114_ValeraKiorkiian/assets/starlight-DyoNK0wo.webp 1x, /js_114_ValeraKiorkiian/assets/starlight_2x-emgH1Jv9.webp 2x"
+            width="282"
+            height="163"
+            loading="lazy"
+          />
+        </li>
+      </ul>
+    </li>
+    <li class="covers-wrapper">
+      <ul class="covers-wrapper-list">
+        <li class="covers-wrapper-item">
+          <img
+            src="/js_114_ValeraKiorkiian/assets/vegetables-lHl5WYlR.webp"
+            alt="Green"
+            srcset="/js_114_ValeraKiorkiian/assets/vegetables-lHl5WYlR.webp 1x, /js_114_ValeraKiorkiian/assets/vegetables_2x-CA6eB-s5.webp 2x"
+            width="282"
+            height="163"
+            loading="lazy"
+          />
+        </li>
+        <li class="covers-wrapper-item">
+          <img
+            src="/js_114_ValeraKiorkiian/assets/energy-BVPrUBd0.webp"
+            alt="Energy"
+            srcset="/js_114_ValeraKiorkiian/assets/energy-BVPrUBd0.webp 1x, /js_114_ValeraKiorkiian/assets/energy_2x-CHO-h_B8.webp 2x"
+            width="282"
+            height="163"
+            loading="lazy"
+          />
+        </li>
+        <li class="covers-wrapper-item">
+          <img
+            src="/js_114_ValeraKiorkiian/assets/fruitbox-CIWHdOob.webp"
+            alt="fruitbox"
+            srcset="/js_114_ValeraKiorkiian/assets/fruitbox-CIWHdOob.webp 1x, /js_114_ValeraKiorkiian/assets/fruitbox_2x--utaLKJ8.webp 2x"
+            width="282"
+            height="163"
+            loading="lazy"
+          />
+        </li>
+        <li class="covers-wrapper-item">
+          <img
+            src="/js_114_ValeraKiorkiian/assets/energy-BVPrUBd0.webp"
+            alt="Energy"
+            srcset="/js_114_ValeraKiorkiian/assets/energy-BVPrUBd0.webp 1x, /js_114_ValeraKiorkiian/assets/energy_2x-CHO-h_B8.webp 2x"
+            width="282"
+            height="163"
+            loading="lazy"
+          />
+        </li>
+        <li class="covers-wrapper-item">
+          <img
+            src="/js_114_ValeraKiorkiian/assets/mimino-DccVn7fW.webp"
+            alt="mimino"
+            srcset="/js_114_ValeraKiorkiian/assets/mimino-DccVn7fW.webp 1x, /js_114_ValeraKiorkiian/assets/mimino_2x-DhzW-aMt.webp 2x"
+            width="282"
+            height="163"
+            loading="lazy"
+          />
+        </li>
+      </ul>
+    </li>
+    <li class="covers-wrapper">
+      <ul class="covers-wrapper-list">
+        <li class="covers-wrapper-item">
+          <img
+            src="/js_114_ValeraKiorkiian/assets/chego-CamH4yQ0.webp"
+            alt="chego"
+            srcset="/js_114_ValeraKiorkiian/assets/chego-CamH4yQ0.webp 1x, /js_114_ValeraKiorkiian/assets/chego_2x-erQ3DOXU.webp 2x"
+            width="282"
+            height="163"
+            loading="lazy"
+          />
+        </li>
+        <li class="covers-wrapper-item">
+          <img
+            src="/js_114_ValeraKiorkiian/assets/power-pulse-Bj5L3iAp.webp"
+            alt="Power"
+            srcset="/js_114_ValeraKiorkiian/assets/power-pulse-Bj5L3iAp.webp 1x, /js_114_ValeraKiorkiian/assets/power-pulse_2x-qIf6uXGb.webp 2x"
+            width="282"
+            height="163"
+            loading="lazy"
+          />
+        </li>
+        <li class="covers-wrapper-item">
+          <img
+            src="/js_114_ValeraKiorkiian/assets/english-2GXmZhcB.webp"
+            alt="English"
+            srcset="/js_114_ValeraKiorkiian/assets/english-2GXmZhcB.webp 1x, /js_114_ValeraKiorkiian/assets/english_2x-DQkTNOg_.webp 2x"
+            width="282"
+            height="163"
+            loading="lazy"
+          />
+        </li>
+        <li class="covers-wrapper-item">
+          <img
+            src="/js_114_ValeraKiorkiian/assets/starlight-DyoNK0wo.webp"
+            alt="traditional"
+            srcset="/js_114_ValeraKiorkiian/assets/starlight-DyoNK0wo.webp 1x, /js_114_ValeraKiorkiian/assets/starlight_2x-emgH1Jv9.webp 2x"
+            width="282"
+            height="163"
+            loading="lazy"
+          />
+        </li>
+      </ul>
+    </li>
+  </ul>
+</section>
+
+      
+<section class="reviews section" id="reviews">
+  <div class="container">
+    <h2 class="reviews-title">REVIEWS</h2>
+    <div class="reviews-swiper" data-box="swiper">
+      <ul id="reviews-list" class="swiper-wrapper" data-swiper="reviews"></ul>
+      <div class="swiper-btn" data-btn="box">
+        <button class="swiper-btn-prev" data-btn="prev">
+          <svg
+            width="24"
+            height="24"
+            class="review-left icon-arrow default rotate"
+          >
+            <use href="/js_114_ValeraKiorkiian/assets/sprite-MlqMT-rW.svg#icon-arrow-right"></use>
+          </svg>
+        </button>
+        <button class="swiper-btn-next" data-btn="next">
+          <svg width="24" height="24" class="review-right icon-arrow default">
+            <use href="/js_114_ValeraKiorkiian/assets/sprite-MlqMT-rW.svg#icon-arrow-right"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+      <button
+        id="scrollToTop"
+        class="scroll-to-top"
+        title="Scroll to top"
+        aria-label="Scroll to top"
+      >
+        <svg class="icon-scroll-to-up" width="18" height="18">
+          <use xlink:href="/js_114_ValeraKiorkiian/assets/sprite-MlqMT-rW.svg#icon-arrow-up"></use>
+        </svg>
+        <svg class="icon-scroll-to-up" width="18" height="18">
+          <use xlink:href="/js_114_ValeraKiorkiian/assets/sprite-MlqMT-rW.svg#icon-arrow-up"></use>
+        </svg>
+      </button>
+    </main>
+
+    <footer class="work-together" id="work-together">
+  <div class="container work-together-container">
+    <div class="title-work">
+      <picture class="logo-wrapper">
+        <img
+          srcset="data:image/webp;base64,UklGRpIEAABXRUJQVlA4WAoAAAAQAAAATwAATwAAQUxQSLIAAAABgE3bliTpIgTCQwmUhxAmkQZZBtkGifAQLkIg5Dzf/46ICcBpKz3b9PIWQzHc7OP02fA7MqdP06+kOn2+plMWk0DaCeMkkXaQOImMtFcnmXXHJ6F5QyUE4JNUB0LLCJvEWlFTBjV9qGFT06Z/Lzc1jWrip+avqCmmxjBqCcC1OAAqIQBkJb5Bp6PDbgoVTHswaqDh2KggDGdT970u4aLzW8y40eM7o+NmK0O0tzX2xXAaVlA4ILoDAACQEQCdASpQAFAAPpFAm0olo6IhpnZrmLASCWMAyG37bGm7XZbfBnSrTRfINqCdLNihX+rOHX9Uobd0eRAfzvgFYbJPyhmRAQZW8kzeWlmOpbjx+EefVbpVRhkeqeJ0bKILCii/QjKlyKo2Fnz1aHHKr9fgzYJ+OHtQ743gWOOFTg05j9UOGcnyFeUupEZCoj5I6aIAAAD++V97YTha39fIQxRGw9082o8v8uOiygKVvKJJx7Z4BrIwn+OmR76ZChlTpVhz0gRacQf19U2F6y7FVGyy29GMhlN59a7chdcNP4bvQg9on7AjEYd0ku/QTd0iqEcNw+6w51pjR4AKrJe6ADHVE27kkAnPS5Xd70VOorovWVfafpx/ap9HqXo13kXeYewhcrVUfykmO6fFORLmEwDN9wqry3iabETldWgBuIu8mRYanN0Jm+QLDYdE6Md1S0k1Fw7uXmDld5BsRhaQFMt/XWM0q6LsWPQMEEuiOFg5n2iMF8ZUIUSGZ9JalU3+GdjqDKlQLFQYtLcEoNCXYA8mnbdSkDf8CcOxImZXdDQRF7+6boboGmT/1JyCbAqgZAn70TrkjpseT0/VQ87KMJ5+kk33GXuPZOZX6NizBm8jbFhjNimanDnXyh9Hqw84zx6yzSODblh9zm60GCRNEE6iKZxqNQ6VBTZX5ehlfIBYWOG1kxQ9OzIoNfCm8hevdYas1a62psob05cOz2w5C8SsaXemGGebzOPHCP3DbAZ8TTp4wMANb+K6n2GlQN9YCjf9jZrA6oDY1Mt9BnRNWnrzrm5RMK3LNn5qTsLz+Iz7pGj0NW+Rq0zsOE75MF5AEO4fD189E3bDXKY7X9pm1SKv2bkAj7880XCqLckNa9YDkPHkdxYbvHtU6s3jeBRBKoD+93yZy8PDeGf34r3N7P7zI2wTXMuWNBXskIOXdyHcEhRDwz2lKAip2B9YujjYFblrWzEc3fwVTH7iMMmMxhRbe8xJ8/GMJXr7egXXMzX42ek2rL72PehpEttZYdgfQ3tt+2632bv5EJT92KjZNBX7SK+0TaR+RtV58o/mhfV/rK11M2kMkAh0aSB6H5KLskrOJhm9+l/7m2zNyTZj3+eeGzkiOtnel0Pa021+/ZOZtMEnHjOZizN/qJRnWzhBfRYGbcc2ridtT+qYv7nZhcy6FtWMUQ3CNgYD+8a3ICftj0fUsB4qJFvpSE8n3iSnSIERgQtHeVozYATA+JbG1DbFV+kcQct6lJ6Sn3bQ5woT9cxT4tQAAAA= 1x, data:image/webp;base64,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 2x"
+          src="data:image/webp;base64,UklGRpIEAABXRUJQVlA4WAoAAAAQAAAATwAATwAAQUxQSLIAAAABgE3bliTpIgTCQwmUhxAmkQZZBtkGifAQLkIg5Dzf/46ICcBpKz3b9PIWQzHc7OP02fA7MqdP06+kOn2+plMWk0DaCeMkkXaQOImMtFcnmXXHJ6F5QyUE4JNUB0LLCJvEWlFTBjV9qGFT06Z/Lzc1jWrip+avqCmmxjBqCcC1OAAqIQBkJb5Bp6PDbgoVTHswaqDh2KggDGdT970u4aLzW8y40eM7o+NmK0O0tzX2xXAaVlA4ILoDAACQEQCdASpQAFAAPpFAm0olo6IhpnZrmLASCWMAyG37bGm7XZbfBnSrTRfINqCdLNihX+rOHX9Uobd0eRAfzvgFYbJPyhmRAQZW8kzeWlmOpbjx+EefVbpVRhkeqeJ0bKILCii/QjKlyKo2Fnz1aHHKr9fgzYJ+OHtQ743gWOOFTg05j9UOGcnyFeUupEZCoj5I6aIAAAD++V97YTha39fIQxRGw9082o8v8uOiygKVvKJJx7Z4BrIwn+OmR76ZChlTpVhz0gRacQf19U2F6y7FVGyy29GMhlN59a7chdcNP4bvQg9on7AjEYd0ku/QTd0iqEcNw+6w51pjR4AKrJe6ADHVE27kkAnPS5Xd70VOorovWVfafpx/ap9HqXo13kXeYewhcrVUfykmO6fFORLmEwDN9wqry3iabETldWgBuIu8mRYanN0Jm+QLDYdE6Md1S0k1Fw7uXmDld5BsRhaQFMt/XWM0q6LsWPQMEEuiOFg5n2iMF8ZUIUSGZ9JalU3+GdjqDKlQLFQYtLcEoNCXYA8mnbdSkDf8CcOxImZXdDQRF7+6boboGmT/1JyCbAqgZAn70TrkjpseT0/VQ87KMJ5+kk33GXuPZOZX6NizBm8jbFhjNimanDnXyh9Hqw84zx6yzSODblh9zm60GCRNEE6iKZxqNQ6VBTZX5ehlfIBYWOG1kxQ9OzIoNfCm8hevdYas1a62psob05cOz2w5C8SsaXemGGebzOPHCP3DbAZ8TTp4wMANb+K6n2GlQN9YCjf9jZrA6oDY1Mt9BnRNWnrzrm5RMK3LNn5qTsLz+Iz7pGj0NW+Rq0zsOE75MF5AEO4fD189E3bDXKY7X9pm1SKv2bkAj7880XCqLckNa9YDkPHkdxYbvHtU6s3jeBRBKoD+93yZy8PDeGf34r3N7P7zI2wTXMuWNBXskIOXdyHcEhRDwz2lKAip2B9YujjYFblrWzEc3fwVTH7iMMmMxhRbe8xJ8/GMJXr7egXXMzX42ek2rL72PehpEttZYdgfQ3tt+2632bv5EJT92KjZNBX7SK+0TaR+RtV58o/mhfV/rK11M2kMkAh0aSB6H5KLskrOJhm9+l/7m2zNyTZj3+eeGzkiOtnel0Pa021+/ZOZtMEnHjOZizN/qJRnWzhBfRYGbcc2ridtT+qYv7nZhcy6FtWMUQ3CNgYD+8a3ICftj0fUsB4qJFvpSE8n3iSnSIERgQtHeVozYATA+JbG1DbFV+kcQct6lJ6Sn3bQ5woT9cxT4tQAAAA="
+          alt="img"
+          loading="lazy"
+        />
+      </picture>
+
+      <h2 class="work-together-title">
+        Let’s<span class="blush-color-things">work</span><br />
+        <span class="line-bottom">together</span>
+      </h2>
+    </div>
+
+    <form id="contact-form">
+      <div class="input-wrapper">
+        <div class="email-wrapper">
+          <label for="email"></label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="clients@gmail.com"
+            required
+            pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
+            title="Email must be in the format: username or username.lastname"
+          />
+          <p id="message" class="validation-message"></p>
+          <div class="email-message"></div>
+        </div>
+        <div class="comments-wrapper">
+          <label for="comments"></label>
+          <textarea
+            name="comments"
+            id="comments"
+            placeholder="comments"
+            required
+          ></textarea>
+          <div class="comments-message"></div>
+        </div>
+      </div>
+
+      <div id="spinner" class="spinner hidden"></div>
+
+      <button type="submit" class="btn-work">Send</button>
+    </form>
+
+    <ul class="contact-info">
+      <li class="work-list-email">
+        <a href="mailto:lloydjefferson@gmail.com">lloydjefferson@gmail.com</a>
+      </li>
+      <li class="work-list-tel">
+        <a href="tel:+3801111111111">+380 11 1111 11 11</a>
+      </li>
+    </ul>
+  </div>
+</footer>
+
+<div class="backdrop">
+  <div id="modal" class="modal">
+    <button class="close-modal" aria-label="Close modal">
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M18 6L6 18"
+          stroke="#FAFAFA"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M6 6L18 18"
+          stroke="#FAFAFA"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </button>
+    <div class="modal-text">
+      <h3>Thank you for your interest in cooperation!</h3>
+      <p>
+        The manager will contact you shortly to discuss further details and
+        opportunities for cooperation. Please stay in touch.
+      </p>
+    </div>
+  </div>
+</div>
+
+    <div class="overlay js-menu-container">
+  <div class="container burger-container">
+    <button class="burger-button-close js-close-menu">
+      <svg class="burger-icon" width="32" height="32">
+        <use href="/js_114_ValeraKiorkiian/assets/sprite-MlqMT-rW.svg#icon-close"></use>
+      </svg>
+    </button>
+    <nav class="burger-nav">
+      <ul class="burger-menu-wrapper">
+        <li>
+          <a class="burger-menu-list-item mobile-modal-link" href="#about-me"
+            >About me</a
+          >
+        </li>
+        <li>
+          <a class="burger-menu-list-item mobile-modal-link" href="#benefits"
+            >Benefits</a
+          >
+        </li>
+        <li>
+          <a class="burger-menu-list-item mobile-modal-link" href="#projects"
+            >Projects</a
+          >
+        </li>
+        <li>
+          <a class="burger-menu-list-item mobile-modal-link" href="#faq">FAQ</a>
+        </li>
+      </ul>
+    </nav>
+    <a class="burger-link mobile-modal-link" href="#work-together">
+      Order the project
+    </a>
+  </div>
+</div>
+
+
+  </body>
+</html>
